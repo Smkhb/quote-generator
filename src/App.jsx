@@ -1,5 +1,6 @@
 import { useState } from "react"
 import MainBox from "./components/MainBox"
+import './App.css'
 
 function App() {
   
@@ -16,9 +17,7 @@ function App() {
 
   return (
 
-
     <div className="App">
-      <h1>Hello World!</h1>
       <MainBox quote={quote} getQuote={getQuote} />
     </div>
   )
