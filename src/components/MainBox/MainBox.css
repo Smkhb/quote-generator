@@ -1,57 +1,47 @@
-.Section_Principal{
-    margin: 32px;
+.Section_Principal {
+    background-color: #A3BFB2;
     border-radius: 12px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    background-color: cornflowerblue;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 
-    box-sizing: border-box;
-
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    margin: 0px 16px;
 }
 
+.Section_Principal p{
+    padding: 12px;
+    box-sizing: border-box;
+}
 .Section_Principal .p_Frase {
-    background-color: lightseagreen;
-    margin: 12px;
-    padding: 24px;
     font-size: 24px;
     font-weight: 500;
-    border-radius: 8px;
-
-    grid-column: 1/3;
 }
 
 .Section_Principal .p_Autor {
-    background-color: lightslategray;
-    margin: 12px;
-    padding: 24px;
     font-size: 20px;
-    border-radius: 8px;
-
-    grid-row: 2/3;
-    grid-column: 1/3;
+    font-style: italic;
 }
 
 .Section_Principal button {
     border: none;
     border-radius: 8px;
-    margin: 16px;
-    padding: 16px 8px;
-    font-size: 20px;
-    font-weight: 600;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
     cursor: pointer;
+    
+    font-size: 16px;
+    font-weight: 600;
+
+    margin: 12px;
+    padding: 12px;
+
 }
 
 .Section_Principal .btn_Get {
-    background-color: honeydew;
-
+    background-color: #F4C68E;
 }
 
 .Section_Principal .btn_Tweet {
-    background-color: coral;
-
+    background-color: #BDE1F2;
 }
-
 .Section_Principal a {
     text-decoration: none;
     color: black;
