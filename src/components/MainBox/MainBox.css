@@ -1,6 +1,5 @@
 .Section_Principal{
-    /* height: 24vh;
-    margin: 64px 32px; */
+    margin: 32px;
     border-radius: 12px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     background-color: cornflowerblue;
@@ -12,17 +11,42 @@
 }
 
 .Section_Principal .p_Frase {
-    background-color: red;
+    background-color: lightseagreen;
+    margin: 12px;
+    padding: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 8px;
+
     grid-column: 1/3;
 }
 
 .Section_Principal .p_Autor {
-    background-color: green;
+    background-color: lightslategray;
+    margin: 12px;
+    padding: 24px;
+    font-size: 20px;
+    border-radius: 8px;
+
+    grid-row: 2/3;
+    grid-column: 1/3;
 }
+
+.Section_Principal button {
+    border: none;
+    border-radius: 8px;
+    margin: 16px;
+    padding: 16px 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .Section_Principal .btn_Get {
- background-color: aqua;
+    background-color: honeydew;
+
 }
 
 .Section_Principal .btn_Tweet {
-    background-color: violet;
+    background-color: coral;
+
 }
