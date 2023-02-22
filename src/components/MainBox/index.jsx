@@ -2,20 +2,24 @@
 
 import './MainBox.css'
 
-const MainBox = () => {
+const MainBox = (props) => {
     return (
+
         <section className='Section_Principal'>
             <p className='p_Frase'>
-                "In order to write about life first you must live it."  
+            "{props.quote.text}"
             </p>
             <p  className='p_Autor'>
-                Autor: Ernest Hemingway
+             - {props.quote.author}
             </p>
-            <button className='btn_Get'>
-                Get a Quote
+            <button onClick={props.getQuote} className='btn_Get'>
+                Get the Quote
             </button>
             <button className='btn_Tweet'>
-                Tweet the Quote
+                <a
+                target="_blank"
+                rel='noopener noreferrer' 
+                href={`https://twitter.com/intent/tweet?text=${props.quote.text}`}>Tweet the Quote</a>
             </button>
         </section>
     )

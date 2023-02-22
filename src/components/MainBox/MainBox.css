@@ -39,6 +39,7 @@
     padding: 16px 8px;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .Section_Principal .btn_Get {
@@ -49,4 +50,9 @@
 .Section_Principal .btn_Tweet {
     background-color: coral;
 
+}
+
+.Section_Principal a {
+    text-decoration: none;
+    color: black;
 }
