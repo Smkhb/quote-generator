@@ -1,0 +1,48 @@
+.Section_Principal {
+    background-color: #A3BFB2;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+
+    margin: 0px 16px;
+}
+
+.Section_Principal p{
+    padding: 12px;
+    box-sizing: border-box;
+}
+.Section_Principal .p_Frase {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.Section_Principal .p_Autor {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.Section_Principal button {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    cursor: pointer;
+    
+    font-size: 16px;
+    font-weight: 600;
+
+    margin: 12px;
+    padding: 12px;
+
+}
+
+.Section_Principal .btn_Get {
+    background-color: #F4C68E;
+}
+
+.Section_Principal .btn_Tweet {
+    background-color: #BDE1F2;
+}
+.Section_Principal a {
+    text-decoration: none;
+    color: black;
+}
